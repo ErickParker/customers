@@ -27,7 +27,7 @@ end prototypes
 
 public subroutine of_autocommit ();/***************************************
 * Auto commit label
-*
+* Test from Eric
 * Use case:
 * of_AutoCommit()
 * Insert into tab_1 ......
