@@ -1,0 +1,9 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "customers.pbl" "";
+@end;
+@begin Objects 
+ "customers.sra" "customers.pbl";
+ "d_contact.srd" "customers.pbl";
+ "w_main.srw" "customers.pbl";
+@end;
