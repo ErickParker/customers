@@ -35,7 +35,7 @@ end on
 event open;// Profile SQL Anywhere 11 Demo
 SQLCA.DBMS = "ODBC"
 SQLCA.AutoCommit = False
-SQLCA.DBParm = "ConnectString='DSN=SQL Anywhere 11 Demo;UID=DBA;PWD=sql'"
+SQLCA.DBParm = "ConnectString='DSN=sample;UID=DBA;PWD=sql'"
 Connect;
 
 open(w_main)
