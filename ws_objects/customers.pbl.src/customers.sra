@@ -32,7 +32,7 @@ destroy(error)
 destroy(message)
 end on
 
-event open;// Profile SQL Anywhere 11 Demo aaa
+event open;// Profile SQL Anywhere 11 Demo bbb
 SQLCA.DBMS = "ODBC"
 SQLCA.AutoCommit = False
 SQLCA.DBParm = "ConnectString='DSN=sample;UID=DBA;PWD=sql'"
