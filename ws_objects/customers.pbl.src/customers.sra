@@ -1,4 +1,4 @@
-﻿$PBExportHeader$customers.sra
+ ﻿$PBExportHeader$customers.sra
 $PBExportComments$Generated Application Object
 forward
 global type customers from application
@@ -32,7 +32,7 @@ destroy(error)
 destroy(message)
 end on
 
-event open;// Profile SQL Anywhere 11 Demo
+event open;// Profile SQL Anywhere 11 Demo xxx
 SQLCA.DBMS = "ODBC"
 SQLCA.AutoCommit = False
 SQLCA.DBParm = "ConnectString='DSN=sample;UID=DBA;PWD=sql'"
